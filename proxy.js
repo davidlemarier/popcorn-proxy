@@ -5,13 +5,10 @@ var options = {
         ipaddress: "localhost",
         port: 1080,
         type: 5,
-        command: "associate" // Since we are using associate, we must specify it here.
+        //command: "associate" // Since we are using associate, we must specify it here.
     },
     target: {
-        // When using associate, either set the ip and port to 0.0.0.0:0 or the expected source of incoming udp packets.
-        // Note: Some SOCKS servers MAY block associate requests with 0.0.0.0:0 endpoints.
-        // Note: ipv4, ipv6, and hostnames are supported here.
-        host: "62.210.222.197",
+        host: "fr2.ptn.re",
         port: 442
     }
 };
