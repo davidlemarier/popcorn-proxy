@@ -9,8 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bittorrent-tracker": "^2.7.0",
+    "bittorrent-tracker": "git+https://github.com/davidlemarier/bittorrent-tracker.git",
     "parse-torrent": "^2.1.2",
+    "shadowsocks": "^1.5.3",
     "socks-client": "^1.0.6",
     "socksv5": "0.0.4",
     "ssh2": "^0.3.6"
