@@ -8,7 +8,7 @@ var parsedTorrent = parseTorrent(torrent) // { infoHash: 'xxx', length: xx, anno
 var peerId = new Buffer('01234567890123456789')
 var port = 6881
 
-var client = new Client(peerId, port, parsedTorrent)
+var client = new Client(peerId, port, parsedTorrent, {proxy: {host: 'localhost', port: 1080}})
 
 // you must add an 'error' event handler!
 client.on('error', function (err) {
